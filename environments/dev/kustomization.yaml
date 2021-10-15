@@ -1,2 +1,8 @@
-bases:
-  - ../../k8s/
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- ../../k8s/
+images:
+- digest: sha256:a97c4be2ab1d3675e29abbe728d012b64bd10bcd0572f5e3ffd5cb272185b239
+  name: quay.io/kevindubois/vote-api
+  newName: quay.io/kevindubois/vote-api
