@@ -6,6 +6,6 @@ images:
 - digest: sha256:5bdc133b5f57a455c3c45ea49ab6ecd179525a95291ebbd3de08d22b284c20e0
   name: quay.io/kevindubois/vote-api
   newName: quay.io/kevindubois/vote-api
-- digest: sha256:44927ca1d67980514947115120e3e3cd8b680c50001acffe5626fa676df38292
+- digest: sha256:75a66e3b8ee788e610efde57f7926c7397db85a797219a0fa3bc247063498e04
   name: quay.io/kevindubois/vote-ui
   newName: quay.io/kevindubois/vote-ui
